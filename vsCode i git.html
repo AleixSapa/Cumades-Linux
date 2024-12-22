@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<table border="1">
+    <tr>
+        <th>Comanda</th>
+        <th>Copiar</th>
+    </tr>
+    <ol>
+        <h2>Instalacio de git:</h2>
+        <tr><td><li>sudo apt update</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>sudo apt install git</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>git --version</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+    </ol>
+</table>
+<script src="script.js"></script>
+<table border="1">
+    <tr>
+        <th>Comanda</th>
+        <th>Copiar</th>
+    </tr>
+    <ol>
+        <h2>Instalacio de vsCode:</h2>
+        <tr><td><li>wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>sources.list.d/vscode.list</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+    </ol>
+</table>
+<script src="script.js"></script>
+<table border="1">
+    <tr>
+        <th>Comanda</th>
+        <th>Copiar</th>
+    </tr>
+    <ol>
+        <h2>Actualitza els repositoris i instal·la VS Code:</h2>
+        <tr><td><li>sudo apt update</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>sudo apt install code</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <h2>Configuiracio de conexio:</h2>
+        <tr><td><li>git config --global user.name "El teu Nom"</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>git config --global user.email "el.teu.correu@example.com"</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+        <tr><td><li>code</li></td><td><button onclick="copiarAlPortapapers(this,1)">Copiar comanda</button></td></tr>
+    </ol>
+</table>

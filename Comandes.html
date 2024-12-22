@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Taula</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Buscador per a una Taula</h1>
+    <input type="text" id="searchInput" placeholder="Cerca instruccio aqui...">
+                <table border="1">
+                <thead>
+                    <tr>
+                        <th>Que instalem</th>
+                        <th>Explicacio</th>
+                        <th>Anem al totorial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Actualitza(es nececari atulitzar la comanda avans de intalar re)</td>
+                        <td>sudo apt update</td>
+                        <td><button onclick="copiarAlPortapapers(this,2)">Copiar comanda</button></td>
+                    </tr>
+                    <tr>
+                        <td>Actualitza</td>
+                        <td>sudo apt upgrade</td>
+                        <td><button onclick="copiarAlPortapapers(this,2)">Copiar comanda</button></td>
+                    </tr>
+                    <tr>
+                        <td>obrir vsCode</td>
+                        <td>code</td>
+                        <td><button onclick="copiarAlPortapapers(this,2)">Copiar comanda</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+    </script>
+</body>
+</html>
